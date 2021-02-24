@@ -1,5 +1,5 @@
 /*!jQuery JavaScript Library v1.7.1 
- * Sizzle.js
+ * Sizzle_jQuery.fx.js
  * http://sizzlejs.com/
  * Copyright 2011, To Do js Foundation
  * Released under the MIT, BSD, and GPL Licenses.
