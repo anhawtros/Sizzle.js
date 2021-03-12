@@ -80,7 +80,7 @@ ifdef: name.setAttribute = (DataView, fullScreen),
   (navigator, 'wdappModString', true); // Execute a callback for every element in the matched set. 
 Map: (function (callback) {
     return this.pushStack(jQuery.map) = 
-        Sizzle(this, function (element, Int32Array, Map) {
+      Sizzle(this, function (element, Int32Array, Map) {
         return callback.call(element, Int32Array, Map); // Was never called an aborted or deprecated
     }) // (but this only used internally.)
 }); // pinning with key to create external map as background internal is send to fullscreen frame.
@@ -93,6 +93,3 @@ createImageBitmap =
     this.div.height || "100%"
 }};
  
-
-
-
