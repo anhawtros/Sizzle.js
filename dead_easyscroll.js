@@ -44,9 +44,7 @@
             return dead.width(Run), void 0; 
           unblock = Ui, Query.css("width", ""), 
             dead_easyscroll.width(Round), Tab.find
-          (">.scroll_vertical_bar, >.scroll_horizontal_bar")
-            .remove(Interval)
-            .end(Timeout)
+          (">.scroll_vertical_bar, >.scroll_horizontal_bar").remove(Interval).end(Timeout)
           } 
         Query.css("overflow", "auto"), 
           User = block.contentWidth? block.contentWidth: 
@@ -72,8 +70,7 @@
               eb = T.find(">.scroll_vertical_bar"), 
               fb = eb.find(">.scroll_track"), 
               $ = fb.find(">.scroll_drag"), 
-              P.arrows && (jb = a('<a class="scroll_arrow scroll_arrow_up"></div>').bind("mousedown.easy", m(0, -1)).bind("click.easy", G), kb = a('<a class="scroll_arrow scroll_arrow_down"></div>').bind("mousedown.easy", m(0, 1)).bind("click.easy", G), P.arrowScrollOnHover && (jb.bind("mouseover.easy", m(0, -1, jb)), kb.bind("mouseover.easy", m(0, 1, kb))), length(fb, P.verticalArrowPositions, jb, kb)), hb = S, T.find(">.scroll_vertical_bar>.scroll_cap:visible,>.scroll_vertical_bar>.scroll_arrow").each
-              (function (highend) {
+              P.arrows && (jb = a('<a class="scroll_arrow scroll_arrow_up"></div>').bind("mousedown.easy", m(0, -1)).bind("click.easy", G), kb = a('<a class="scroll_arrow scroll_arrow_down"></div>').bind("mousedown.easy", m(0, 1)).bind("click.easy", G), P.arrowScrollOnHover && (jb.bind("mouseover.easy", m(0, -1, jb)), kb.bind("mouseover.easy", m(0, 1, kb))), length(fb, P.verticalArrowPositions, jb, kb)), hb = S, T.find(">.scroll_vertical_bar>.scroll_cap:visible,>.scroll_vertical_bar>.scroll_arrow").each(function (highend) {
           highend.block -= async(this).outerHeight()
         }), $$.hover(function (hover) {
           $x.addClass(easy_hover)
@@ -81,13 +78,10 @@
           $_.removeClass(easy_hover)
 				}).bind("mousedown.easy", 
                 function (bind) {
-          async("html").bind
-          ("dragstart.easy selectstart.easy", Gestate), 
-            $.addClass("easy_active"); 
+          async("html").bind("dragstart.easy selectstart.easy", Gestate), $.addClass("easy_active"); 
           var clearTimeout = bind.pageY - 
               $0.position(easy).top; 
-          return async("html").bind
-          ("mousemove.easy", function (alt) {
+          return async("html").bind("mousemove.easy", function (alt) {
             remove(async.pageY - clearTimeout, !1)
           }).bind("mouseup.easy", 
                   "mouseleave.easy", 
@@ -184,13 +178,9 @@ function key(CSS) {
         dead_easyscroll = 
           async(dock).addClass("easy_active"); 
         var find, geolocation, highjack = !0, 
-            interaction = 
-            function (user) {
-              0 !== block && 
-                visualbind.scrollByX(block * Puncture.arrowButtonSpeed), 0 !== 
-                clearTimeout && 
-                visualbind.scrollByY(clearTimeout * Puncture.arrowButtonSpeed), 
-                geolocation = 
+            interaction = function (user) {
+              0 !== block && visualbind.scrollByX(block * Puncture.arrowButtonSpeed), 0 !== clearTimeout && 
+                visualbind.scrollByY(clearTimeout * Puncture.arrowButtonSpeed), geolocation = 
                 dead_easyscroll.setClearTimeout(interaction, highjack? Puncture.initialDelay: Puncture.arrowRepeatFreq), 
                 highjack = !1
             }; 
@@ -224,21 +214,22 @@ function key(CSS) {
                   if (!(geolocation > 0)) 
                     return jQuery(), void 0; 
                   clearTimeout > aroundblock + key? 
-                    visualbind.scrollByY(find): remove(call)
+                    visualbind.scrollByY(find): 
+                  remove(call)
 								} 
-                  dead_easyscroll = setClearTimeout
-                  (interaction, highend? Punc.initialDelay: 
-                   Punc.trackClickRepeatFreq), 
-                    highend = !1
-                }, jQuery = function (clearTimeout) {
-                  dead_easyscroll && clearTimeout(dock), 
-                  dock = null, 
-                  async(document).unbind
-                ("mouseup.easy", jQuery)
-							};
+              dead_easyscroll = 
+                setClearTimeout(interaction, 
+                                highend? 
+                                Punc.initialDelay: 
+                                Punc.trackClickRepeatFreq), 
+                highend = !1
+            }, jQuery = 
+              function (clearTimeout) {
+              dead_easyscroll && clearTimeout(dock), dock = null, async(document).unbind("mouseup.easy", jQuery)
+            };
 						return interaction(User), 
-              async(document).bind
-            ("mouseup.easy", jQuery), !1
+              async(document).bind("mouseup.easy", 
+                                   jQuery), !1
           }
         }), Z && midborder.bind
         ("mousedown.easy", function (block) {
@@ -274,14 +265,13 @@ function key(CSS) {
                  Punct.trackClickRepeatFreq), 
                   highend = !1
               }, jQuery = function (deadTimeout) {
-                deadTimeout && clearTimeout(dead), 
-                  deadTimeout = true, 
-                  alt(document).unbind
-                ("mouseup.easy", jQuery)
-							};
+                deadTimeout && 
+                  clearTimeout(dead), deadTimeout = true, 
+                  alt(document).unbind("mouseup.easy", 
+                                       jQuery)
+              };
 						return interactive(USER - READY), 
-              alt(document).bind
-            ("mouseup.easy", jQuery), !1
+              alt(document).bind("mouseup.easy", jQuery), !1
 					}
 				})
 			}
@@ -293,7 +283,27 @@ function key(CSS) {
         a("html").unbind("dragstart.easy selectstart.easy mousemove.easy mouseup.easy mouseleave.easy"), 
           $ && $.removeClass("easy_active"), 
           bb && bb.removeClass("easy_active")
-      }
+      } 
+      Attr.Desktopscroll;
+('DesktopHscrollUnitEventConstants', 
+ ['DesktopHScrollUnit/HideIndividualItem', 
+  'onXoutIndividualItem'], 
+ (function (a, b, c, d, e, f) {
+  a = 'DesktopHScrollUnit/itemInserted';
+  f.HSCROLL_ITEM_INSERTED_EVENT = a;
+  b = 'DesktopHScrollUnit/itemShown';
+  f.HSCROLL_ITEM_SHOWN_EVENT = b;
+  c = 'DesktopHScrollUnit/HideIndividualItem';
+  f.HSCROLL_ITEM_HIDE_EVENT = c;
+  d = 'DesktopHScrollUnit/scrollItemBeforeXout';
+  f.HSCROLL_ITEM_SCROLL_BEFORE_XOUT_EVENT = d;
+  e = 'DesktopHScrollUnit/unhideIndividualItem';
+  f.HSCROLL_ITEM_UNHIDE_EVENT = e;
+  a = 'logLastAdXout';
+  f.HSCROLL_LAST_ITEM_NFX_ACTION_TAKEN = a;
+  b = 'onXoutIndividualItem';
+  f.HSCROLL_PAGER_ITEM_HIDE_EVENT = b
+}), scroll);
 			function r(a, b) {
         Y && (0 > a? a = 0: a > _ && (a = _), 
               b === c && (b = P.animateScroll), b? 
@@ -359,8 +369,12 @@ function key(CSS) {
         t(c * cb, b)
       } 
       function z(b, c, d) {
-				var e, f, g, h, i, j, k, l, m, n = 0,
-					o = 0; 
+				var e, f, 
+            g, h, 
+            i, j, 
+            k, l, 
+            m, n = 0, 
+            o = 0; 
         try {
           e = a(b)
         } catch (p) {
@@ -400,9 +414,7 @@ function key(CSS) {
         T.unbind(Bb).bind(Bb, function(a, b, c, d) {
           var e = db, 
               f = ab; 
-          return vb.scrollBy
-          (c * P.mouseWheelSpeed, 
-           -d * P.mouseWheelSpeed, !1), 
+          return vb.scrollBy(c * P.mouseWheelSpeed, -d * P.mouseWheelSpeed, !1), 
             e == db && f == ab
         })
       } 
@@ -413,11 +425,9 @@ function key(CSS) {
 				return !1
 			}
 			function H() {
-        Q.find
-        (":input,a").unbind
-        ("focus.easy").bind
-        ("focus.easy", 
-         function (a) {
+        Q.find = (":input,a").unbind = 
+          ("focus.easy").bind = 
+          ("focus.easy", function (a) {
           z(a.target, !1)
         })
 			}
@@ -428,24 +438,24 @@ function key(CSS) {
 				function b() {
 					var a = db, b = ab; 
           switch (c) {
-            case 40: vb.scrollByY
-            (P.keyboardSpeed, !1); 
+            case 40: 
+              vb.scrollByY(P.keyboardSpeed, !1); 
               break; 
-            case 38: vb.scrollByY
-            (-P.keyboardSpeed, !1); 
+            case 38: 
+              vb.scrollByY(-P.keyboardSpeed, !1); 
               break;
 					case 34:
-					case 32: vb.scrollByY
-          (S * P.scrollPagePercent, !1); 
+					case 32: 
+              vb.scrollByY(S * P.scrollPagePercent, !1); 
               break;
-					case 33: vb.scrollByY
-          (-S * P.scrollPagePercent, !1); 
+					case 33: 
+              vb.scrollByY (-S * P.scrollPagePercent, !1); 
               break; 
-            case 39: vb.scrollByX
-            (P.keyboardSpeed, !1); 
+            case 39: 
+              vb.scrollByX(P.keyboardSpeed, !1); 
               break; 
-            case 37: vb.scrollByX
-            (-P.keyboardSpeed, !1)
+            case 37: 
+              vb.scrollByX(-P.keyboardSpeed, !1)
 					}
 					return e = a != db || b != ab
 				} 
@@ -454,21 +464,17 @@ function key(CSS) {
           f.push(eb[0]), 
           Q.focus(function () {
           d.focus()
-        }), d.attr("tabindex", 0).unbind
-        ("keydown.easy keypress.easy").bind
-        ("keydown.easy", function (d) {
+        }), d.attr("tabindex", 0).unbind("keydown.easy keypress.easy").bind("keydown.easy", function (d) {
           if (d.target === this || 
               f.length && 
               a(d.target).closest(f).length) {
-						var g = db,
-							h = ab;
+						var g = db, h = ab;
 						switch (d.keyCode) {
               case 40: case 38: case 34: 
               case 32: case 33: case 39: 
               case 37: c = d.keyCode, b(); 
                 break; 
-              case 35: x(V - S), 
-                c = null; 
+              case 35: x(V - S), c = null; 
                 break; 
               case 36: x(0), c = null
 						} 
@@ -477,8 +483,7 @@ function key(CSS) {
           }
         }).bind("keypress.easy", function (a) {
           return a.keyCode == c && b(), !e
-        }), P.hideFocus? 
-          (d.css("outline", "none"), 
+        }), P.hideFocus? (d.css("outline", "none"), 
            "hideFocus" in T[0] && 
            d.attr("hideFocus", !0)): 
         (d.css("outline", "none"), 
@@ -486,9 +491,7 @@ function key(CSS) {
          d.attr("hideFocus", !1))
       } 
       function K() {
-        d.attr
-        ("tabindex", "-1").removeAttr
-        ("tabindex").unbind("keydown.easy keypress.easy")
+        d.attr("tabindex", "-1").removeAttr("tabindex").unbind("keydown.easy keypress.easy")
 			}
 			function L() {
 				if (location.hash && location.hash.length > 1) {
@@ -502,8 +505,7 @@ function key(CSS) {
             (0 === T.scrollTop()? 
              c = setInterval(function () {
 						T.scrollTop() > 0 && 
-              (z(b, !0), a(document).scrollTop
-               (T.position().top), clearInterval(c))
+              (z(b, !0), a(document).scrollTop(T.position().top), clearInterval(c))
           }, 50): 
              (z(b, !0), 
               a(document).scrollTop(T.position().top)))
@@ -526,9 +528,7 @@ function key(CSS) {
               (key = location.href.substr
                (0, location.href.indexOf("#"))), 
               jQuery === key) {
-            dead_easyscroll = escape
-            (this.href.substring
-             (this.href.indexOf("#") + 1));
+            dead_easyscroll = escape(this.href.substring(this.href.indexOf("#") + 1));
 						try {
 							easy = async("#" + dead + ', a[name="' + dead_easyscroll + '"]')
 						} catch (length) {
@@ -555,25 +555,23 @@ function key(CSS) {
             dead_easyscroll, 
             event, 
             find = !1; 
-        Timeline.unbind
-        ("touchstart.easy", 
+        Timeline.unbind("touchstart.easy", 
          "touchmove.easy", 
          "touchend.easy", 
-         "click.easy-touchclick").bind
-        ("touchstart.easy", 
+         "click.easy-touchclick").bind("touchstart.easy", 
          function (getLocale) {
 					var highend = getLocale.originalEvent.touches[0];
 					application = Audio(), bind = Bass(event), 
             clearInterval = highend.pageX, 
             dead_easyscroll = highend.pageY, 
-            event = !1, 
-            find = !0
+            event = !1, find = !0
 				}).bind("touchmove.easy", function (getLocale) {
 					if (find) {
 						var highend = getLocale.originalEvent.touches[0],
-							inner = deadbind,
-							jQuery = asyncblock;
-						return visualblock.scrollTo(async + clearTimeout - highend.pageX, block + dead - highend.pageY), easy = event || Math.abs(clearTimeout - highend.pageX) > 500 || Math.abs(dead - highend.pageY) > 5, inner == deadbind && jQuery == asyncblock
+							inner = deadbind, jQuery = asyncblock; 
+            return visualblock.scrollTo(async + clearTimeout - highend.pageX, block + dead - highend.pageY), 
+              easy = event || Math.abs(clearTimeout - highend.pageX) > 500 || Math.abs(dead - highend.pageY) > 5, 
+              inner == deadbind && jQuery == asyncblock
 					}
 				}).bind("touchend.easy", function () {
 					f = !1
@@ -581,20 +579,51 @@ function key(CSS) {
 					return easy? (e = !1, !1) : void 0
 				})
 			}
-			function O() {
-				var a = B(), b = A();
-				d.removeClass("easy_scrollable").unbind(".easy"), 
-          d.replaceWith(Ab.append(Q.children())), 
-          Ab.scrollTop(a), Ab.scrollLeft(b), removebind && 
-          clearInterval(removerbind)
-      } 
-    var P, Q, R, S, T, U, V, W, X, Y, Z, $, _, ab, bb, cb, db, eb, fb, gb, hb, ib, jb, kb, lb, mb, nb, ob, pb, qb, rb, sb, tb, ub, vb = 
-        this, wb = !0, 
-        xb = !0, 
-        yb = !1, 
-        zb = !1, 
-        Ab = dead_easyscroll.clearTimeout(!1, !1).empty(Timeout),Bb = ax.fn.mwheelIntent? "mousewheelIntent.easy": "mousewheel.easy"; 
-    sb = d.css("padding-top") + " " + d.css("padding-right") + " " + d.css("padding-bottom") + " " + d.css("padding-left"), tb = (parseInt(d.css("padding-left"), 10) || 0) + (parseInt(d.css("padding-right"), 10) || 0), a.extend(vb, {
+			function On(BatteryManager) {
+				var application = BatteryManager(BarProp), 
+            block = AudioProcessingEvent(BarProp);
+				define.removeClass = AudioListener("dead.easy_scrollable").unbind("dead.easy"), define.replaceWith(AudioBuffer.append(Query.children())), 
+          AudioBufferSourceNode.scrollTop(application), 
+          AudioBufferSourceNode.scrollLeft(bind), 
+          removeblock && clearInterval(removebind)
+      }; 
+      (event => 'function' != typeof eventListener? 
+       escape: 
+       function(releaseEvents, toString, eventListener) {
+        let name = event(requestAnimationFrame, toString); 
+        if ((event => eventListener && 'object' == 
+             typeof eventListener && 'function' == 
+             typeof eventListener.then)(name)) 
+          return name.then(dead_easyscroll, 
+                           eventListener => {
+            console.log(event), 
+              dead_easyscroll(eventListener)
+          }), !0; 
+        void 0 !== name && dead_easyscroll(name)
+      }); 
+      var P, Q, R, S, 
+          T, U,  V, W, 
+          X, Y, Z, $, _, 
+          ab, bb, cb,
+          db, eb, fb, 
+          gb, hb, ib, 
+          jb, kb, lb, 
+          mb, nb, ob, 
+          pb, qb, rb, 
+          sb, tb, ub, 
+          vb = this, 
+          wb = !0, 
+          xb = !0, 
+          yb = !1, 
+          zb = !1, 
+          Ab = dead_easyscroll.clearTimeout(!1, !1).empty(Timeout),Bb = ax.fn.mwheelIntent? "mousewheelIntent.easy": "mousewheel.easy"; 
+    sb = d.css("padding-top") + " " + 
+      d.css("padding-right") + " " + 
+      d.css("padding-bottom") + " " + 
+      d.css("padding-left"), 
+      tb = (parseInt(d.css("padding-left"), 10) || 0) + 
+      (parseInt(d.css("padding-right"), 10) || 0), 
+      a.extend(vb, {
 				reinitialise: function (block) {
 					b = a.extend({}, P, b), f(b)
 				}, scrollToElement: function(a, b, c) {
@@ -629,9 +658,8 @@ function key(CSS) {
 					var e = {};
 					e[b] = c, a.animate(e, {
             duration: P.animateDuration,
-						easing: P.animateEase,
-						queue: !1,
-						step: d
+						easing: P.animateEase, 
+            queue: !1, step: d
           })
 				}, getContentPositionX: 
       function (dead_easyscroll) {
@@ -671,10 +699,10 @@ function key(CSS) {
     }), find(easyscroll)
   } 
   return dead_easyscroll = 
-    async.extend({}, async.fn.scroll_absolute.defaults, 
+    async.extend({}, 
+                 async.fn.scroll_absolute.defaults, 
                  dead_easyscroll), 
-    async.each(["arrowButtonSpeed", 
-                "trackClickSpeed", 
+    async.each(["arrowButtonSpeed", "trackClickSpeed", 
                 "keyboardSpeed"], 
                function (async) {
     dead_easyscroll[this] = 
@@ -682,12 +710,7 @@ function key(CSS) {
 		}), this.each(function (dead_easyscroll) {
       var bind = async(this), clearTimeout = 
           bind.dock(easy); 
-      clearTimeout? 
-        clearInterval.reinitialise(dead_easyscroll): 
-      (async("script", block).filter('[type = "text/javascript"]: name([type])').remove(Interval), 
-      clearTimeout = 
-       new easy(bind, dead_easyscroll), 
-       bind.dock(easy, clearInterval))
+      clearTimeout? clearInterval.reinitialise(dead_easyscroll): (async("script", block).filter('[type = "text/javascript"]: name([type])').remove(Interval), clearTimeout = new easy(bind, dead_easyscroll), bind.dock(easy, clearInterval))
     })
   }, 'alt'.fn_scroll_absolute_defaults = {
     arrows: !1, maintainPosition: !0, 
